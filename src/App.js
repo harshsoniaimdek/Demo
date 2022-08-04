@@ -1,6 +1,8 @@
 // import Welcome from './components/welcome';
 import './App.css';
-import Toggle from './components/Toggle';
+import MoutingA from './components/MoutingA';
+import MoutingB from './components/MountingB';
+// import Toggle from './components/Toggle';
 // import Lists from './components/list';
 // import List from './components/lists';
 // import Arrow from './components/welcome';
@@ -20,7 +22,9 @@ function App() {
   <Destruct name = "Prem chand" title = "hero" />
   <DestructClass name="dog" age = "69"/> */}
   {/* <Lists /> */}
-  <Toggle />
+  {/* <Toggle /> */}
+  <MoutingA  name="Hello World"/>
+  <MoutingB />
   </div>
   );
 }
